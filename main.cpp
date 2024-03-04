@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
 
     m1.Comer(a1);
     m2.Comer(a2);
-    cout<<"Mascota 1 Energia"<<m1.LeerEnergia()<<endl
-         <<"Mascota 2 Energia"<<m2.LeerEnergia()<<endl;
+    cout<<"Mascota 1 Energia: "<<m1.LeerEnergia()<<endl
+         <<"Mascota 2 Energia: "<<m2.LeerEnergia()<<endl;
     return 0;
 }
