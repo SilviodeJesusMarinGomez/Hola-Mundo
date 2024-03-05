@@ -7,10 +7,12 @@ private:
     // implementacion oculta
     int Energia;
     int Felicidad;
+    std::string nombre;
 public:
-    Mascota(){
+    Mascota(std::string nombre){
         this->Energia = 0;
         this->Felicidad = 0;
+        this->nombre = nombre;
     }
     ~Mascota(){}
 
@@ -26,5 +28,8 @@ public:
     }
     int LeerEnergia(){
         return this ->Energia;
+    }
+    std::string LeerNombre(){
+        return this->nombre;
     }
 };
